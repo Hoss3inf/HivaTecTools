@@ -1,5 +1,25 @@
 # HivaTecTools
 
+Implementation
+-------
+
+add jitpack dependency to your Project `build.gradle`:
+
+```
+allprojects {
+    repositories {
+    // Blah Blah Blah ...
+      maven { url "https://jitpack.io" }
+    // Et cetra, Et cetra, Et cetra 
+    }
+```
+
+add project dependency to your module `build.gradle` file:
+```
+dependencies {
+    implementation 'com.github.meysamhadigheh:HivaTecTools:f20a13dac7'
+}
+```
 
 HivaButton
 -----
